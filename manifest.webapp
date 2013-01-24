@@ -1,0 +1,27 @@
+{
+  "version": "0.1",
+  "name": "Timers",
+  "description": "Quickly set new timers that warn you when the time is up",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon-16.png",
+    "48": "/img/icons/icon-48.png",
+    "128": "/img/icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Sergi Mansilla",
+    "url": "http://sergi.github.com/timersapp"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "locales": {
+    "es": {
+      "description": "Crea temporizadores rápidamente",
+      "developer": {
+        "name": "Sergi Mansilla",
+        "url": "http://sergi.github.com/timersapp"
+      }
+    },
+  },
+  "default_locale": "en"
+}
