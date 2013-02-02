@@ -1,1 +1,1 @@
-require.config({baseUrl:"js/lib"}),requirejs(["../app"])
+require.config({baseUrl:"js/lib",map:{"*":{jquery:"zepto"}},shim:{}}),requirejs(["../app"])
